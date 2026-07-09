@@ -422,3 +422,51 @@ footer a:hover {
         width: 180px;
         height: 180px;
     }
+
+#galery ul,
+    #video ul {
+        grid-template-columns: 1fr;
+    }
+
+    .guestbook {
+         padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul a {
+        font-size: 13px;
+    }
+
+    #home h2 {
+        font-size: 1.6rem;
+    }
+
+    #profile img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .foto-card img {
+        height: 220px;
+    }
+
+    .guestbook {
+        padding: 15px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
