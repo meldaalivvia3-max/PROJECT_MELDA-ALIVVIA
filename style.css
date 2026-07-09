@@ -314,3 +314,49 @@ main {
     color:  #f8fafa;
     margin-bottom: 10px;
 }
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #0e1623;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0e1623;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background: #0e1623;
+    border-top: 1px solid #f8fafa
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #f8fafa;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: #f8fafa;
+}
+
+#home, 
+#about,
+#profile,
+#galery,
+#video,
+#bukutamu {
+    animation: fadeUp 0.8s ease;
+}
