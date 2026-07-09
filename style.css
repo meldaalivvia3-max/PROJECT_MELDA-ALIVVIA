@@ -387,3 +387,38 @@ footer a:hover {
     #home h2 {
         font-size: 2.7rem;
     }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+
+    nav ul {
+        gap: 12px;
+    }
+
+    #home {
+        padding: 90px 15px;
+    }
+
+    #home h2 {
+        font-size: 2rem;
+    }
+
+    #home p {
+        font-size: 1rem;
+    }
+
+    section h2 {
+        font-size: 1.6rem;
+    }
+
+    #profile img {
+        width: 180px;
+        height: 180px;
+    }
